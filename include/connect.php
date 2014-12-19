@@ -1,8 +1,8 @@
 <?php
-    $host_name  = "db557259234.db.1and1.com";
-    $database   = "db557259234";
-    $user_name  = "dbo557259234";
-    $password   = "Apple123!123";
+    $host_name  = "***********";
+    $database   = "***********";
+    $user_name  = "***********";
+    $password   = "***********";
 
     $connect = mysqli_connect($host_name, $user_name, $password, $database);
     if (mysqli_connect_errno())
